@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        tools:src="@android:color/darker_gray"
+        android:scaleType="centerCrop"
+        android:id="@+id/img_item_trip"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="26dp"
+        android:background="?android:attr/selectableItemBackground">
+
+        <TextView
+            style="@style/TextHeading.Medium.Ellipsis"
+            android:id="@+id/tv_item_title"
+            tools:text="@string/nama_trip" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_location"
+            android:layout_marginBottom="8dp"
+            tools:text="@string/dummy_location"
+            android:drawableStart="@drawable/ic_location_24dp"
+            android:drawablePadding="8dp"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_detail"
+            android:ellipsize="end"
+            android:maxLines="2"
+            tools:text="@string/lorem_ipsum"/>
+    </LinearLayout>
+
+</LinearLayout>

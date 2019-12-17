@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Trip Story</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et rhoncus elit. Duis id dictum est. Curabitur luctus, libero vitae elementum rhoncus, justo felis iaculis magna, at pulvinar lacus tortor quis diam. Vivamus velit odio, ultrices sed bibendum id, feugiat id arcu.</string>
+    <string name="nama_trip">Nama Trip</string>
+    <string name="dummy_location">Malang</string>
+    <string name="dummy_user">Dewangga Putra</string>
+    <string name="penulis">Penulis</string>
+    <string name="muhammad_bagus_zulmi">Muhammad Bagus Zulmi</string>
+    <string name="my_email">baguszulmi101198@gmail.com</string>
+    <string name="my_profile">My Profile</string>
+</resources>
